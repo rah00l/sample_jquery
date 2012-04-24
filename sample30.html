@@ -7,14 +7,13 @@
 
     <a href="">jQuery.com</a>
 
-    <a href="http://www.jquery.com" title="jQuery">jQuery.com 2</a>
-
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>
         (function ($) {
             // Alerts "1"     
-            alert($('a[title="jQuery"][href^="http://"][class!=""]').length);
+            alert($('a[title="jQuery"][href^="http://"]').length);
         })(jQuery);
     </script>
 </body>
 </html>
+
